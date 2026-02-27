@@ -1,26 +1,98 @@
 @import "tailwindcss";
+@plugin "@tailwindcss/typography";
+
+@font-face {
+  font-family: "VaryenseBrand";
+  src: url("/fonts/Michroma-Regular.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  /* Core palette — blacks, ash, gray, silver */
+  --background: #020617; /* slate-950 */
+  --foreground: #e5e7eb; /* zinc-200 */
+
+  --muted: #020617;
+  --muted-foreground: #9ca3af; /* gray-400 */
+
+  --card: #020617;
+  --card-foreground: #e5e7eb;
+
+  --border: #1f2933;
+  --input: #1f2933;
+  --ring: #e5e7eb;
+
+  --accent: #cbd5f5; /* soft silver highlight */
+  --accent-foreground: #020617;
+
+  --radius-lg: 32px;
 }
 
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-border: var(--border);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-ring: var(--ring);
+
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+  --font-display: var(--font-display);
 }
 
 body {
-  background: var(--background);
+  background: radial-gradient(circle at top, #020617 0, #020617 40%, #000 100%);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+}
+
+.font-display {
+  font-family: var(--font-display), system-ui, -apple-system, BlinkMacSystemFont,
+    "SF Pro Text", "SF Pro Display", "Helvetica Neue", sans-serif;
+}
+
+.font-script {
+  font-family: var(--font-script), system-ui, -apple-system, BlinkMacSystemFont,
+    "SF Pro Text", "SF Pro Display", "Helvetica Neue", cursive, sans-serif;
+}
+
+.font-varyense {
+  font-family: "VaryenseBrand", system-ui, -apple-system, BlinkMacSystemFont,
+    "SF Pro Text", "SF Pro Display", "Helvetica Neue", sans-serif;
+  letter-spacing: 0.18em;
+}
+
+.bg-radial-surface {
+  background:
+    radial-gradient(circle at top, #0b1120 0, transparent 55%),
+    radial-gradient(circle at bottom, #020617 0, #000 70%);
+}
+
+.bg-preloader {
+  background:
+    radial-gradient(circle at top, #020617 0, #020617 40%, #000 100%),
+    radial-gradient(circle at bottom, #020617 0, #000 70%);
+}
+
+/* Subtle motion */
+@keyframes slide-right {
+  0% {
+    transform: translateX(-70%);
+  }
+  60% {
+    transform: translateX(110%);
+  }
+  100% {
+    transform: translateX(110%);
+  }
+}
+
+.animate-slide-right {
+  animation: slide-right 1.2s cubic-bezier(0.33, 1, 0.68, 1) infinite;
 }
