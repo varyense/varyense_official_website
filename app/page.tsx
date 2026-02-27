@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
+import { FadeIn } from "@/components/motion/fade-in";
 
 const highlights = [
   {
@@ -64,7 +65,7 @@ export default function Home() {
     <div className="space-y-24 sm:space-y-32">
       {/* Hero */}
       <section className="grid gap-14 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)] lg:items-center lg:gap-16">
-        <div className="space-y-10">
+        <FadeIn className="space-y-10" y={20}>
           <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-slate-400">
             What we do
           </p>
@@ -102,9 +103,9 @@ export default function Home() {
               </div>
             ))}
           </dl>
-        </div>
+        </FadeIn>
 
-        <div className="relative">
+        <FadeIn className="relative" y={26} delay={0.06}>
           <div className="pointer-events-none absolute inset-0 -z-10 rounded-[32px] bg-[radial-gradient(circle_at_top,_rgba(148,163,184,0.75),_transparent_55%)] opacity-80" />
           <Card className="relative overflow-hidden border-slate-600/70 bg-gradient-to-b from-slate-900/85 to-slate-950/95">
             <div className="absolute inset-0 opacity-50 mix-blend-screen">
@@ -154,12 +155,12 @@ export default function Home() {
               </div>
             </div>
           </Card>
-        </div>
+        </FadeIn>
       </section>
 
       {/* What we offer */}
       <section className="space-y-12 pt-4">
-        <div className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between">
+        <FadeIn className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between" y={18}>
           <div className="space-y-3">
             <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-slate-400">
               What we offer
@@ -172,27 +173,29 @@ export default function Home() {
             We focus on support and product or SaaS work today. As we grow,
             we’ll add more services and sectors—this site will stay updated.
           </p>
-        </div>
+        </FadeIn>
 
         <div className="grid gap-6 md:grid-cols-3 pt-4">
-          {pillars.map((pillar) => (
-            <Card key={pillar.title} className="border-slate-700/80 p-7">
-              <div className="space-y-4">
-                <p className="text-[11px] uppercase tracking-[0.26em] text-slate-400">
-                  {pillar.title}
-                </p>
-                <p className="text-[14px] leading-relaxed text-slate-200">
-                  {pillar.body}
-                </p>
-              </div>
-            </Card>
+          {pillars.map((pillar, index) => (
+            <FadeIn key={pillar.title} y={22} delay={0.04 * index}>
+              <Card className="border-slate-700/80 p-7">
+                <div className="space-y-4">
+                  <p className="text-[11px] uppercase tracking-[0.26em] text-slate-400">
+                    {pillar.title}
+                  </p>
+                  <p className="text-[14px] leading-relaxed text-slate-200">
+                    {pillar.body}
+                  </p>
+                </div>
+              </Card>
+            </FadeIn>
           ))}
         </div>
       </section>
 
       {/* Projects */}
       <section id="projects" className="scroll-mt-24 space-y-12 pt-8">
-        <div className="space-y-4">
+        <FadeIn className="space-y-4" y={18}>
           <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-slate-400">
             Our work
           </p>
@@ -203,59 +206,60 @@ export default function Home() {
             From exam portals to turf management and local discovery, we build
             products that solve real problems for real users.
           </p>
-        </div>
+        </FadeIn>
 
         <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4 pt-4">
-          {projects.map((project) => (
-            <Card
-              key={project.name}
-              className="border-slate-700/80 p-6 flex flex-col gap-4"
-            >
-              <div className="space-y-1">
-                <h3 className="font-varyense text-[0.9rem] text-slate-50">
-                  {project.name}
-                </h3>
-                <p className="text-[11px] uppercase tracking-[0.22em] text-slate-400">
-                  {project.tagline}
+          {projects.map((project, index) => (
+            <FadeIn key={project.name} y={24} delay={0.05 * index}>
+              <Card className="border-slate-700/80 p-6 flex flex-col gap-4">
+                <div className="space-y-1">
+                  <h3 className="font-varyense text-[0.9rem] text-slate-50">
+                    {project.name}
+                  </h3>
+                  <p className="text-[11px] uppercase tracking-[0.22em] text-slate-400">
+                    {project.tagline}
+                  </p>
+                </div>
+                <p className="text-[14px] leading-relaxed text-slate-300 flex-1">
+                  {project.description}
                 </p>
-              </div>
-              <p className="text-[14px] leading-relaxed text-slate-300 flex-1">
-                {project.description}
-              </p>
-            </Card>
+              </Card>
+            </FadeIn>
           ))}
         </div>
       </section>
 
       {/* Contact */}
       <section id="contact" className="scroll-mt-24 space-y-6 pt-8">
-        <Card className="border-slate-700/80 bg-slate-950/80 p-8 sm:p-10">
-          <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
-            <div className="space-y-3">
-              <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-slate-400">
-                Get in touch
-              </p>
-              <p className="text-base text-slate-50 sm:text-lg leading-relaxed max-w-xl">
-                Need support or a custom product or SaaS solution? Send us your
-                requirements and we’ll get back to you with next steps.
-              </p>
+        <FadeIn y={18}>
+          <Card className="border-slate-700/80 bg-slate-950/80 p-8 sm:p-10">
+            <div className="flex flex-col gap-8 sm:flex-row sm:items-start sm:justify-between">
+              <div className="space-y-3">
+                <p className="font-mono text-[10px] uppercase tracking-[0.3em] text-slate-400">
+                  Get in touch
+                </p>
+                <p className="text-base text-slate-50 sm:text-lg leading-relaxed max-w-xl">
+                  Need support or a custom product or SaaS solution? Send us your
+                  requirements and we’ll get back to you with next steps.
+                </p>
+              </div>
+              <div className="space-y-2 text-sm text-slate-300">
+                <p>
+                  Email:{" "}
+                  <a
+                    href="mailto:varyense@gmail.com"
+                    className="underline underline-offset-4 decoration-slate-500 hover:text-slate-100"
+                  >
+                    varyense@gmail.com
+                  </a>
+                </p>
+                <p className="text-[12px] text-slate-500">
+                  Tell us what you need. We’ll respond with a clear plan.
+                </p>
+              </div>
             </div>
-            <div className="space-y-2 text-sm text-slate-300">
-              <p>
-                Email:{" "}
-                <a
-                  href="mailto:varyense@gmail.com"
-                  className="underline underline-offset-4 decoration-slate-500 hover:text-slate-100"
-                >
-                  varyense@gmail.com
-                </a>
-              </p>
-              <p className="text-[12px] text-slate-500">
-                Tell us what you need. We’ll respond with a clear plan.
-              </p>
-            </div>
-          </div>
-        </Card>
+          </Card>
+        </FadeIn>
       </section>
     </div>
   );

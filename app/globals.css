@@ -96,3 +96,54 @@ body {
 .animate-slide-right {
   animation: slide-right 1.2s cubic-bezier(0.33, 1, 0.68, 1) infinite;
 }
+
+@keyframes flare-orbit {
+  0% {
+    transform: translate3d(-20%, -10%, 0) scale(1);
+    opacity: 0.35;
+  }
+  25% {
+    transform: translate3d(12%, -18%, 0) scale(1.08);
+    opacity: 0.48;
+  }
+  50% {
+    transform: translate3d(24%, 6%, 0) scale(1.02);
+    opacity: 0.42;
+  }
+  75% {
+    transform: translate3d(-8%, 18%, 0) scale(1.06);
+    opacity: 0.5;
+  }
+  100% {
+    transform: translate3d(-20%, -10%, 0) scale(1);
+    opacity: 0.35;
+  }
+}
+
+.flare-layer {
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  z-index: -5;
+  overflow: hidden;
+}
+
+.flare-layer::before {
+  content: "";
+  position: absolute;
+  inset: -40%;
+  background:
+    radial-gradient(circle at 10% 0%, rgba(148, 163, 184, 0.45), transparent 60%),
+    radial-gradient(circle at 90% 20%, rgba(148, 163, 184, 0.32), transparent 60%),
+    radial-gradient(circle at 20% 100%, rgba(156, 163, 175, 0.3), transparent 60%);
+  opacity: 0.28;
+  mix-blend-mode: screen;
+  filter: blur(26px);
+  animation: flare-orbit 26s ease-in-out infinite alternate;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .flare-layer::before {
+    animation: none;
+  }
+}
