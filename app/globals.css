@@ -48,7 +48,7 @@
 }
 
 body {
-  background: radial-gradient(circle at top, #020617 0, #020617 40%, #000 100%);
+  background: radial-gradient(circle at top, #020617 0, #020617 38%, #020617 65%, #000 100%);
   color: var(--foreground);
 }
 

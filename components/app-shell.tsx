@@ -45,7 +45,6 @@ export function AppShell({ children }: AppShellProps) {
 
       {/* Scene chrome */}
       <div className="pointer-events-none fixed inset-0 -z-10">
-        <div className="absolute inset-x-0 top-[-20%] h-[420px] bg-[radial-gradient(circle_at_top,rgba(148,163,184,0.45),transparent_55%)]" />
         <div className="absolute inset-y-0 left-[-10%] w-[40%] bg-[radial-gradient(circle_at_left,rgba(15,23,42,0.8),transparent_55%)]" />
         <div className="absolute inset-y-0 right-[-18%] w-[46%] bg-[radial-gradient(circle_at_right,rgba(15,23,42,0.8),transparent_55%)]" />
       </div>
