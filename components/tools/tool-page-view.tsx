@@ -29,8 +29,7 @@ export function ToolPageView({ tool }: { tool: Tool }) {
         eyebrow={tool.heroEyebrow}
         title={<span className="bg-gradient-to-r from-slate-100 via-slate-300 to-slate-400 bg-clip-text text-transparent">{tool.heroTitle}</span>}
         subtitle={tool.heroSubtitle}
-        primaryCta={{ href: tool.externalUrl, label: "Open hosted calculator", external: true }}
-        secondaryNote="The hosted calculator opens in a new browser tab. This hub page stays on varyense.com for documentation, FAQs, and internal links."
+        primaryCta={{ href: tool.externalUrl, label: "Open Calculator", external: true }}
       />
 
       <section className="space-y-4 pt-2" aria-labelledby="tool-intro-heading">

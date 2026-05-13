@@ -847,11 +847,6 @@ export const toolsIndexFaqs: FaqItem[] = [
       "No. Tools are for education and planning unless explicitly stated otherwise on the tool. For legal, medical, tax, engineering, or financial decisions, consult qualified professionals and primary sources.",
   },
   {
-    question: "How do tool pages help SEO?",
-    answer:
-      "Each page has unique metadata, canonical URLs, FAQ and breadcrumb schema, and contextual internal links to services and articles, signals that help search engines and AI systems understand entities and site structure.",
-  },
-  {
     question: "Can you build a custom calculator for my business?",
     answer:
       "Yes. Varyense builds web and SaaS products where interactive estimators, onboarding flows, and dashboards are core to the product. Start with the contact page and describe your inputs, outputs, and compliance constraints.",

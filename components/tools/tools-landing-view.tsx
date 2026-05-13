@@ -48,7 +48,7 @@ export function ToolsLandingView() {
 
       <ToolsSearchGrid tools={all} categories={categories} featured={featured} />
 
-      <FaqSection title="Tools, SEO, and how Varyense ships interactive products" items={toolsIndexFaqs} />
+      <FaqSection title="Tools and how Varyense ships interactive products" items={toolsIndexFaqs} />
 
       <InternalLinksSection title="From calculators to client work" links={explore} />
 
