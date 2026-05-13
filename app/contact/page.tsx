@@ -31,7 +31,7 @@ export default function ContactPage() {
         <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">Contact</p>
         <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.35rem]">Let’s talk about your roadmap.</h1>
         <p className="max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
-          Send requirements, timelines, links, and constraints. We respond with clear next steps—what we’d validate first,
+          Send requirements, timelines, links, and constraints. We respond with clear next steps, what we’d validate first,
           what we’d build in phase one, and what information we still need.
         </p>
       </header>

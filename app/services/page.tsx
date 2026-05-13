@@ -37,9 +37,9 @@ export default function ServicesIndexPage() {
 
       <header className="space-y-4">
         <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">Services</p>
-        <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.35rem]">Build, support, and grow—without SEO debt.</h1>
+        <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.35rem]">Innovative Software Solutions for Modern Businesses.</h1>
         <p className="max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
-          Each service page includes FAQs, structured data, internal links, and a repeatable layout so new routes stay consistent as your site grows.
+          We design and develop scalable web applications, SaaS platforms, mobile apps, and AI-powered solutions tailored to your business goals.
         </p>
       </header>
 

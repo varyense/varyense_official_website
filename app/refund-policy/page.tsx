@@ -1,5 +1,8 @@
 import type { Metadata } from "next";
 import { createPageMetadata } from "@/lib/seo/metadata";
+import { Breadcrumbs } from "@/components/layout/breadcrumbs";
+import { BreadcrumbSchema } from "@/components/seo/breadcrumb-schema";
+import { WebPageSchema } from "@/components/seo/webpage-schema";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Refund Policy",
@@ -8,12 +11,19 @@ export const metadata: Metadata = createPageMetadata({
   path: "/refund-policy",
 });
 
+const crumbs = [
+  { name: "Home", href: "/" },
+  { name: "Refund Policy", href: "/refund-policy" },
+] as const;
+
 export default function RefundPolicyPage() {
   return (
+    <div className="space-y-10">
+      <BreadcrumbSchema items={[...crumbs]} />
+      <WebPageSchema name="Refund Policy" description="Understand how Varyense handles refunds and adjustments for IT support and tailored SaaS or product engagements." path="/refund-policy" />
+
+      <Breadcrumbs items={[...crumbs]} />
     <article className="prose prose-invert prose-slate max-w-3xl text-sm leading-relaxed">
-      <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-slate-400">
-        Varyense / Refund Policy
-      </p>
       <h1 className="mb-4 mt-3 font-display text-2xl text-slate-50">
         Refund Policy
       </h1>
@@ -91,6 +101,7 @@ export default function RefundPolicyPage() {
         Last updated: {new Date().getFullYear()}
       </p>
     </article>
+    </div>
   );
 }
 

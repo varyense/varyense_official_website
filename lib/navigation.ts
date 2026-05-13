@@ -3,6 +3,7 @@ import { caseStudies } from "@/lib/content/case-studies";
 import { industryPages } from "@/lib/content/industries";
 import { servicePages } from "@/lib/content/services";
 import { technologyPages } from "@/lib/content/technologies";
+import { getAllTools } from "@/lib/tools";
 
 export type NavItem = { href: string; label: string };
 
@@ -12,6 +13,7 @@ export const primaryNav: NavItem[] = [
   { href: "/services", label: "Services" },
   { href: "/case-studies", label: "Case studies" },
   { href: "/blog", label: "Blog" },
+  { href: "/tools", label: "Tools" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },
 ];
@@ -23,6 +25,7 @@ export const footerExplore: NavItem[] = [
   { href: "/industries/fintech-software", label: "Fintech" },
   { href: "/case-studies", label: "Case studies" },
   { href: "/blog", label: "Blog" },
+  { href: "/tools", label: "Calculators & tools" },
 ];
 
 export const footerLegal: NavItem[] = [
@@ -39,6 +42,7 @@ export function allPublicPaths(): string[] {
     "/services",
     "/case-studies",
     "/blog",
+    "/tools",
     "/privacy-policy",
     "/refund-policy",
     "/terms",
@@ -49,6 +53,7 @@ export function allPublicPaths(): string[] {
   for (const p of Object.values(technologyPages)) paths.add(p.path);
   for (const post of blogPosts) paths.add(`/blog/${post.slug}`);
   for (const cs of caseStudies) paths.add(`/case-studies/${cs.slug}`);
+  for (const tool of getAllTools()) paths.add(tool.path);
 
   return [...paths].sort();
 }

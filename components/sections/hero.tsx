@@ -6,9 +6,14 @@ export function HeroSection(props: {
   eyebrow: string;
   title: ReactNode;
   subtitle: string;
-  primaryCta?: { href: string; label: string };
+  /** Use `external: true` (or an `https?://` href) to open in a new tab with safe rel attributes. */
+  primaryCta?: { href: string; label: string; external?: boolean };
   secondaryNote?: string;
 }) {
+  const cta = props.primaryCta;
+  const isExternal =
+    !!cta && (Boolean(cta.external) || cta.href.startsWith("http://") || cta.href.startsWith("https://"));
+
   return (
     <section className="space-y-8">
       <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">{props.eyebrow}</p>
@@ -20,12 +25,23 @@ export function HeroSection(props: {
       </div>
       {props.primaryCta ? (
         <div className="pt-2">
-          <Link
-            href={props.primaryCta.href}
-            className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-slate-950 shadow-[0_0_20px_rgba(148,163,184,0.35)] transition-colors hover:bg-accent/90"
-          >
-            {props.primaryCta.label}
-          </Link>
+          {isExternal ? (
+            <a
+              href={props.primaryCta.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-slate-950 shadow-[0_0_20px_rgba(148,163,184,0.35)] transition-colors hover:bg-accent/90"
+            >
+              {props.primaryCta.label}
+            </a>
+          ) : (
+            <Link
+              href={props.primaryCta.href}
+              className="inline-flex items-center justify-center rounded-full bg-accent px-5 py-2.5 text-sm font-medium text-slate-950 shadow-[0_0_20px_rgba(148,163,184,0.35)] transition-colors hover:bg-accent/90"
+            >
+              {props.primaryCta.label}
+            </Link>
+          )}
         </div>
       ) : null}
       {props.secondaryNote ? (

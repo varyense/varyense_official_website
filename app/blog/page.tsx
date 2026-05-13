@@ -31,9 +31,9 @@ export default function BlogIndexPage() {
 
       <header className="space-y-4">
         <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">Blog</p>
-        <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.35rem]">Practical notes for shipping on the modern web.</h1>
+        <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.35rem]">Insights, Ideas & Technology Trends.</h1>
         <p className="max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
-          Long-form articles include structured FAQs, internal links, and article metadata to support semantic search and AI retrieval.
+        Explore expert articles on software development, SaaS, AI, product engineering, and modern technologies shaping digital businesses.
         </p>
       </header>
 

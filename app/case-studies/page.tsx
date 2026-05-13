@@ -31,9 +31,9 @@ export default function CaseStudiesIndexPage() {
 
       <header className="space-y-4">
         <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">Case studies</p>
-        <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.35rem]">Proof in shipping discipline.</h1>
+        <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.35rem]">Real Projects. Real Results.</h1>
         <p className="max-w-3xl text-sm leading-relaxed text-slate-300 sm:text-base">
-          Each study highlights challenges, solutions, technologies, and measurable outcomes—paired with structured metadata for search systems.
+        Explore how we helped businesses solve complex challenges through scalable software solutions, modern technologies, and strategic product development.
         </p>
       </header>
 

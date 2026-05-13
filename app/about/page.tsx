@@ -36,15 +36,10 @@ export default function AboutPage() {
         <div className="space-y-5">
           <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">About</p>
           <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.35rem]">
-            Clear engineering for teams that need{" "}
-            <span className="bg-gradient-to-r from-slate-100 via-slate-300 to-slate-400 bg-clip-text text-transparent">
-              reliability
-            </span>
-            .
+            A Technology Partner Focused on Innovation.
           </h1>
           <p className="max-w-2xl text-sm leading-relaxed text-slate-300 sm:text-base">
-            {siteConfig.name} combines IT support with product development. We prioritize transparent plans, measurable
-            outcomes, and technical SEO foundations so your site stays discoverable as content grows.
+            Our team designs and develops high-performance digital solutions that help startups and enterprises grow faster and smarter.
           </p>
           <div className="flex flex-wrap gap-4 pt-2">
             <Button asChild>
