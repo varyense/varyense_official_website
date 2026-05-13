@@ -48,9 +48,9 @@ export const technologyPages: Record<string, TechnologyPageContent> = {
     ],
     faq: [
       {
-        question: "Server components vs client components—how do you decide?",
+        question: "Server components vs client components, how do you decide?",
         answer:
-          "We default to server components for data fetching and layout, and introduce client components for stateful UI, animations, or browser-only APIs—keeping bundles smaller and improving LCP.",
+          "We default to server components for data fetching and layout, and introduce client components for stateful UI, animations, or browser-only APIs, keeping bundles smaller and improving LCP.",
       },
     ],
     relatedServiceSlugs: ["web-development", "saas-development"],
@@ -77,7 +77,7 @@ export const technologyPages: Record<string, TechnologyPageContent> = {
     heroEyebrow: "Technologies",
     heroTitle: "React interfaces engineered for clarity and long-term velocity.",
     heroSubtitle:
-      "We structure components for readability, testing, and incremental feature growth—whether you ship in Next.js or another React host.",
+      "We structure components for readability, testing, and incremental feature growth, whether you ship in Next.js or another React host.",
     overview:
       "React rewards consistency: explicit data flow, stable composition patterns, and careful attention to re-render boundaries. We align engineering conventions with your team’s experience level to reduce onboarding friction.",
     whyChoose: [
@@ -113,7 +113,7 @@ export const technologyPages: Record<string, TechnologyPageContent> = {
     path: "/technologies/laravel-development",
     title: "Laravel Development",
     summary:
-      "APIs, admin systems, and backend workflows with Laravel—secure defaults, queues, and maintainable domain structure.",
+      "APIs, admin systems, and backend workflows with Laravel, secure defaults, queues, and maintainable domain structure.",
     breadcrumbs: [
       { name: "Home", href: "/" },
       { name: "Laravel Development", href: "/technologies/laravel-development" },
@@ -138,7 +138,7 @@ export const technologyPages: Record<string, TechnologyPageContent> = {
       {
         question: "Can Laravel power a Next.js frontend?",
         answer:
-          "Yes—often as a dedicated API service with authenticated endpoints, rate limiting, and versioning while the frontend handles rendering and SEO.",
+          "Yes, often as a dedicated API service with authenticated endpoints, rate limiting, and versioning while the frontend handles rendering and SEO.",
       },
     ],
     relatedServiceSlugs: ["saas-development", "web-development"],

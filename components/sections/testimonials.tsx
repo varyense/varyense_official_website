@@ -7,7 +7,7 @@ const quotes = [
     org: "Facilities company",
   },
   {
-    quote: "They treated SEO and performance as product requirements—not a checklist at the end.",
+    quote: "They treated SEO and performance as product requirements, not a checklist at the end.",
     name: "Product manager",
     org: "SaaS team",
   },

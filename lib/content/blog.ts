@@ -30,7 +30,7 @@ export const blogPosts: BlogPost[] = [
         id: "why-nextjs",
         heading: "Why Next.js fits SaaS delivery",
         content:
-          "Next.js combines routing, rendering modes, and metadata APIs in one framework. For SaaS, that means you can ship marketing surfaces and authenticated product areas with consistent patterns—reducing glue code and improving time-to-production.",
+          "Next.js combines routing, rendering modes, and metadata APIs in one framework. For SaaS, that means you can ship marketing surfaces and authenticated product areas with consistent patterns, reducing glue code and improving time-to-production.",
       },
       {
         id: "tenancy",
@@ -48,7 +48,7 @@ export const blogPosts: BlogPost[] = [
         id: "caching",
         heading: "Caching is a product feature",
         content:
-          "Treat caching keys and revalidation as part of your release process. Prefer predictable staleness over accidental freshness bugs—especially for plan entitlements and permissions.",
+          "Treat caching keys and revalidation as part of your release process. Prefer predictable staleness over accidental freshness bugs, especially for plan entitlements and permissions.",
       },
       {
         id: "observability",
@@ -73,7 +73,7 @@ export const blogPosts: BlogPost[] = [
     slug: "technical-seo-checklist-2026",
     title: "Technical SEO checklist for modern web apps (2026)",
     summary:
-      "Canonicals, sitemaps, structured data, internal linking, and CWV signals—what still matters for Google and AI-driven retrieval.",
+      "Canonicals, sitemaps, structured data, internal linking, and CWV signals, what still matters for Google and AI-driven retrieval.",
     publishedAt: "2026-02-02T10:00:00.000Z",
     author: "Varyense",
     readingTimeMinutes: 7,
@@ -89,7 +89,7 @@ export const blogPosts: BlogPost[] = [
         id: "structured-data",
         heading: "Structured data with discipline",
         content:
-          "Use JSON-LD for Organization, WebSite, Article, FAQPage, and BreadcrumbList where truthful. Schema should match visible content—avoid misleading rich-result bait.",
+          "Use JSON-LD for Organization, WebSite, Article, FAQPage, and BreadcrumbList where truthful. Schema should match visible content, avoid misleading rich-result bait.",
       },
       {
         id: "cwv",
@@ -101,7 +101,7 @@ export const blogPosts: BlogPost[] = [
         id: "ai-search",
         heading: "AI search and semantic retrieval",
         content:
-          "Write with clear headings, explicit entities, and concise summaries. FAQ sections help both humans and systems extract trustworthy answers—especially when tied to factual policies and product boundaries.",
+          "Write with clear headings, explicit entities, and concise summaries. FAQ sections help both humans and systems extract trustworthy answers, specially when tied to factual policies and product boundaries.",
       },
     ],
     faq: [
@@ -117,7 +117,7 @@ export const blogPosts: BlogPost[] = [
     slug: "ai-assistants-for-support-teams",
     title: "AI assistants for support teams: a grounded implementation guide",
     summary:
-      "How to ship retrieval-augmented support assistants with evaluation, moderation, and human escalation—without turning support into a black box.",
+      "How to ship retrieval-augmented support assistants with evaluation, moderation, and human escalation, without turning support into a black box.",
     publishedAt: "2026-03-18T10:00:00.000Z",
     author: "Varyense",
     readingTimeMinutes: 9,

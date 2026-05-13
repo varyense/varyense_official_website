@@ -101,7 +101,7 @@ const seeds: ToolSeed[] = [
       },
       {
         title: "Transparent assumptions",
-        body: "Calculators work best when inputs are explicit—use notes fields and conservative ranges when uncertainty is high.",
+        body: "Calculators work best when inputs are explicit, use notes fields and conservative ranges when uncertainty is high.",
       },
     ],
     useCases: [
@@ -139,7 +139,7 @@ const seeds: ToolSeed[] = [
     seo: {
       metaTitle: "Energy cost calculator",
       metaDescription:
-        "Estimate electricity costs with Varyense’s energy calculator. Learn benefits, use cases, and FAQs—then open the free hosted tool on a dedicated subdomain.",
+        "Estimate electricity costs with Varyense’s energy calculator. Learn benefits, use cases, and FAQs, then open the free hosted tool on a dedicated subdomain.",
     },
     schemaApplicationCategory: "UtilitiesApplication",
   },
@@ -156,7 +156,7 @@ const seeds: ToolSeed[] = [
     heroSubtitle:
       "The hosted calculator helps teams and individuals translate rough activity data into directional carbon estimates.",
     introduction:
-      "Carbon accounting is nuanced—methodology matters. This page summarizes what the tool is for, what it is not for, and how to pair outputs with policy-grade measurement when required.",
+      "Carbon accounting is nuanced, methodology matters. This page summarizes what the tool is for, what it is not for, and how to pair outputs with policy-grade measurement when required.",
     benefits: [
       {
         title: "Directional insight",
@@ -185,7 +185,7 @@ const seeds: ToolSeed[] = [
       {
         question: "How does this relate to the energy calculator?",
         answer:
-          "Energy and emissions are adjacent topics. Use energy calculators for tariff and usage economics, and carbon tools for emissions framing—often together in sustainability narratives.",
+          "Energy and emissions are adjacent topics. Use energy calculators for tariff and usage economics, and carbon tools for emissions framing, often together in sustainability narratives.",
       },
     ],
     relatedToolSlugs: ["energy-calculator", "percentage-calculator", "square-footage-calculator"],
@@ -211,7 +211,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Budget AI features with clearer unit economics.",
     heroSubtitle:
-      "Estimate spend from token counts and rate assumptions—useful when product teams need quick guardrails before deeper instrumentation.",
+      "Estimate spend from token counts and rate assumptions, useful when product teams need quick guardrails before deeper instrumentation.",
     introduction:
       "Shipping AI features responsibly means understanding cost drivers. This page connects product and engineering readers to a hosted calculator while linking to Varyense services for production-grade implementations.",
     benefits: [
@@ -242,7 +242,7 @@ const seeds: ToolSeed[] = [
       {
         question: "Can Varyense help implement production AI?",
         answer:
-          "Yes—see AI development services and related articles on evaluation, moderation, and grounded retrieval.",
+          "Yes, see AI development services and related articles on evaluation, moderation, and grounded retrieval.",
       },
     ],
     relatedToolSlugs: ["percentage-calculator", "calorie-calculator", "energy-calculator"],
@@ -317,7 +317,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Rough-order concrete quantities before you order.",
     heroSubtitle:
-      "Use the hosted calculator to translate dimensions into volume and common bag equivalents—always validate with site conditions.",
+      "Use the hosted calculator to translate dimensions into volume and common bag equivalents, always validate with site conditions.",
     introduction:
       "Concrete jobs have waste factors, reinforcement, and subgrade variability. This page focuses on how the calculator supports early planning and what to verify on site before purchasing.",
     benefits: [
@@ -339,7 +339,7 @@ const seeds: ToolSeed[] = [
       {
         question: "Should I order exactly the output amount?",
         answer:
-          "Typically no—jobsites benefit from a prudent buffer and supplier guidance. Treat outputs as planning aids.",
+          "Typically no, jobsites benefit from a prudent buffer and supplier guidance. Treat outputs as planning aids.",
       },
     ],
     relatedToolSlugs: ["square-footage-calculator", "percentage-calculator", "retirement-corpus-calculator"],
@@ -365,7 +365,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Explore retirement targets with explicit assumptions.",
     heroSubtitle:
-      "The hosted calculator helps you iterate on savings rate, return assumptions, and spending needs—outputs are educational, not personalized advice.",
+      "The hosted calculator helps you iterate on savings rate, return assumptions, and spending needs, outputs are educational, not personalized advice.",
     introduction:
       "Retirement planning is deeply personal and tax-sensitive. This hub explains how to use the calculator responsibly and where to engage licensed professionals for comprehensive plans.",
     benefits: [
@@ -414,7 +414,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Clarify monthly payment mechanics for common loan shapes.",
     heroSubtitle:
-      "The hosted calculator helps you explore principal and interest relationships—always confirm with a lender for offers and fees.",
+      "The hosted calculator helps you explore principal and interest relationships, always confirm with a lender for offers and fees.",
     introduction:
       "Mortgages include lender-specific fees, insurance, and escrow treatments. This page frames what the calculator models well and what requires your loan estimate documentation.",
     benefits: [
@@ -431,7 +431,7 @@ const seeds: ToolSeed[] = [
       {
         question: "Does this include taxes and insurance?",
         answer:
-          "Only if the hosted tool’s inputs explicitly capture them. Many calculators separate escrow components—read the on-tool notes carefully.",
+          "Only if the hosted tool’s inputs explicitly capture them. Many calculators separate escrow components, read the on-tool notes carefully.",
       },
       {
         question: "Is this a loan offer?",
@@ -462,7 +462,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Directional body composition estimates from measurable inputs.",
     heroSubtitle:
-      "The hosted calculator applies published formulas to your measurements—results vary by method and population.",
+      "The hosted calculator applies published formulas to your measurements, results vary by method and population.",
     introduction:
       "Body composition is multi-dimensional. This hub explains limitations, when clinical methods outperform calculators, and how to interpret trends cautiously.",
     benefits: [
@@ -484,7 +484,7 @@ const seeds: ToolSeed[] = [
       {
         question: "Why do methods disagree?",
         answer:
-          "Each method optimizes different proxies—hydration, measurement skill, and formula population all affect outputs.",
+          "Each method optimizes different proxies, hydration, measurement skill, and formula population all affect outputs.",
       },
     ],
     relatedToolSlugs: ["calorie-calculator", "pregnancy-due-date-calculator", "percentage-calculator"],
@@ -511,7 +511,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Educational due date estimates with clinical context in mind.",
     heroSubtitle:
-      "The hosted tool applies standard dating approaches used in educational materials—clinical dating should follow provider guidance.",
+      "The hosted tool applies standard dating approaches used in educational materials, clinical dating should follow provider guidance.",
     introduction:
       "Due dating varies by cycle regularity, ovulation timing, and ultrasound policies. This page summarizes what calculators can and cannot replace in prenatal care.",
     benefits: [
@@ -520,7 +520,7 @@ const seeds: ToolSeed[] = [
       { title: "Classroom clarity", body: "Teach standard conventions used alongside professional care." },
     ],
     useCases: [
-      { title: "Early pregnancy planning", body: "Roughly map trimester milestones for personal organization—not diagnosis." },
+      { title: "Early pregnancy planning", body: "Roughly map trimester milestones for personal organization, not diagnosis." },
       { title: "Doula and educator resources", body: "Pair tools with referrals and evidence-based curricula." },
       { title: "FAQ support content", body: "Link users from articles to a consistent interactive reference." },
     ],
@@ -560,7 +560,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Translate activity and body metrics into maintenance estimates.",
     heroSubtitle:
-      "The hosted calculator applies standard equations—individual metabolism varies, so treat outputs as starting points.",
+      "The hosted calculator applies standard equations, individual metabolism varies, so treat outputs as starting points.",
     introduction:
       "Nutrition planning should respect medical conditions and professional guidance. This hub explains how to use calorie estimates responsibly alongside registered dietitians when needed.",
     benefits: [
@@ -609,7 +609,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Compare tire dimensions before you buy.",
     heroSubtitle:
-      "The hosted calculator helps translate size codes into comparable geometry—always confirm clearance and load ratings for your vehicle.",
+      "The hosted calculator helps translate size codes into comparable geometry, always confirm clearance and load ratings for your vehicle.",
     introduction:
       "Tire changes interact with speedometer accuracy, braking, and suspension geometry. This hub emphasizes safety checks beyond pure size math.",
     benefits: [
@@ -655,7 +655,7 @@ const seeds: ToolSeed[] = [
     featured: false,
     keywords: ["snow day calculator", "school closure estimate", "winter weather fun", "snow prediction"],
     heroEyebrow: "Tools",
-    heroTitle: "A fun estimator—never a replacement for official announcements.",
+    heroTitle: "A fun estimator, never a replacement for official announcements.",
     heroSubtitle:
       "The hosted experience combines simplified signals for entertainment and classroom use. Always follow district communications for real closures.",
     introduction:
@@ -705,7 +705,7 @@ const seeds: ToolSeed[] = [
     heroEyebrow: "Tools",
     heroTitle: "Adapt recipes with safer, test-and-learn conversions.",
     heroSubtitle:
-      "Air fryers vary by wattage and basket size. The hosted calculator suggests starting points—always monitor food for doneness and safety.",
+      "Air fryers vary by wattage and basket size. The hosted calculator suggests starting points, always monitor food for doneness and safety.",
     introduction:
       "Kitchen conversions are part art. This hub encourages food-safety habits and links to the hosted tool for interactive experimentation.",
     benefits: [
@@ -849,7 +849,7 @@ export const toolsIndexFaqs: FaqItem[] = [
   {
     question: "How do tool pages help SEO?",
     answer:
-      "Each page has unique metadata, canonical URLs, FAQ and breadcrumb schema, and contextual internal links to services and articles—signals that help search engines and AI systems understand entities and site structure.",
+      "Each page has unique metadata, canonical URLs, FAQ and breadcrumb schema, and contextual internal links to services and articles, signals that help search engines and AI systems understand entities and site structure.",
   },
   {
     question: "Can you build a custom calculator for my business?",

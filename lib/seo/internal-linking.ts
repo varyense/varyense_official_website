@@ -105,7 +105,7 @@ export function getInternalLinksForToolPage(tool: Tool, limit = 10): InternalLin
   push({
     href: "/contact",
     label: "Build a product with Varyense",
-    description: "Custom SaaS, web apps, and integrations—including interactive tools.",
+    description: "Custom SaaS, web apps, and integrations, including interactive tools.",
   });
 
   return out.slice(0, limit);

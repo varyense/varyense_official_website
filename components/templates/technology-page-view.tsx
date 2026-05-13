@@ -65,7 +65,7 @@ export function TechnologyPageView({ content }: { content: TechnologyPageContent
       <InternalLinksSection title="Where this technology shows up in our work" links={related} />
       <CtaSection
         title="Need engineers who ship with conventions?"
-        body="Tell us about your codebase, release cadence, and quality bar—we’ll match you with a pragmatic plan."
+        body="Tell us about your codebase, release cadence, and quality bar, we’ll match you with a pragmatic plan."
         href="/contact"
         label="Contact Varyense"
       />

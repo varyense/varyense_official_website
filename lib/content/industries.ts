@@ -36,7 +36,7 @@ export const industryPages: Record<string, IndustryPageContent> = {
     heroSubtitle:
       "We build workflows that reduce administrative burden while keeping access control, auditing, and reliability front and center.",
     overview:
-      "Healthcare products demand careful handling of sensitive data and predictable operations. We partner with teams to ship incrementally—starting with the highest-risk workflows and hardening as usage grows.",
+      "Healthcare products demand careful handling of sensitive data and predictable operations. We partner with teams to ship incrementally, starting with the highest-risk workflows and hardening as usage grows.",
     challenges: [
       "Fragmented systems and duplicate data entry across tools.",
       "Strict access requirements for staff vs patients vs partners.",
@@ -64,7 +64,7 @@ export const industryPages: Record<string, IndustryPageContent> = {
       {
         id: "focus-areas",
         title: "Common focus areas",
-        body: "Scheduling, intake, education portals, internal admin tools, and integrations with billing or EHR ecosystems—scoped to your roadmap.",
+        body: "Scheduling, intake, education portals, internal admin tools, and integrations with billing or EHR ecosystems, scoped to your roadmap.",
       },
     ],
   },
@@ -101,7 +101,7 @@ export const industryPages: Record<string, IndustryPageContent> = {
       {
         question: "Can you integrate Stripe or similar providers?",
         answer:
-          "Yes—subscriptions, invoices, and webhook-driven workflows are common integrations we implement with testable, replay-safe handlers.",
+          "Yes, subscriptions, invoices, and webhook-driven workflows are common integrations we implement with testable, replay-safe handlers.",
       },
     ],
     relatedServiceSlugs: ["saas-development", "web-development", "mobile-app-development"],

@@ -13,7 +13,7 @@ const crumbs = [
 ] as const;
 
 const description =
-  "Explore Varyense services: SaaS development, web development, mobile apps, UI/UX design, and AI development—built with SEO and performance discipline.";
+  "Explore Varyense services: SaaS development, web development, mobile apps, UI/UX design, and AI development, built with SEO and performance discipline.";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Services",
@@ -52,7 +52,7 @@ export default function ServicesIndexPage() {
 
       <CtaSection
         title="Not sure which service fits?"
-        body="Send your context—we’ll map the best starting point, whether that’s support, a product build, or a technical SEO architecture pass."
+        body="Send your context, we’ll map the best starting point, whether that’s support, a product build, or a technical SEO architecture pass."
         href="/contact"
         label="Contact Varyense"
       />

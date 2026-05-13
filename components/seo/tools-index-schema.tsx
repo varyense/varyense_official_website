@@ -17,7 +17,7 @@ export function ToolsIndexSchema() {
     "@type": "CollectionPage",
     name: "Calculators & tools by Varyense",
     description:
-      "Browse free calculators for energy, finance, health, construction, AI budgeting, and everyday utilities—each with SEO hub pages and hosted interactive apps.",
+      "Browse free calculators for energy, finance, health, construction, AI budgeting, and everyday utilities, each with SEO hub pages and hosted interactive apps.",
     url,
     isPartOf: { "@id": `${absoluteUrl("/")}#website` },
     mainEntity: {

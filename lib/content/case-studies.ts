@@ -20,7 +20,7 @@ export const caseStudies: CaseStudy[] = [
     slug: "attend-exam-platform",
     title: "Attend Exam: online exam delivery at scale",
     summary:
-      "A student exam portal with workflows for submissions, evaluations, and performance feedback—built for reliability during peak exam windows.",
+      "A student exam portal with workflows for submissions, evaluations, and performance feedback, built for reliability during peak exam windows.",
     industry: "Education",
     services: ["SaaS development", "Web development", "UI/UX design"],
     technologies: ["Next.js", "React", "PostgreSQL"],
@@ -35,7 +35,7 @@ export const caseStudies: CaseStudy[] = [
     ],
     cta: {
       title: "Planning a high-stakes workflow product?",
-      body: "Tell us about peak traffic patterns, roles, and compliance constraints—we’ll propose an architecture and delivery plan.",
+      body: "Tell us about peak traffic patterns, roles, and compliance constraints, we’ll propose an architecture and delivery plan.",
     },
     faq: [
       {
@@ -65,13 +65,13 @@ export const caseStudies: CaseStudy[] = [
     ],
     cta: {
       title: "Need an operations portal for a physical business?",
-      body: "Share your scheduling constraints and integrations—we’ll map a pragmatic build sequence.",
+      body: "Share your scheduling constraints and integrations, we’ll map a pragmatic build sequence.",
     },
     faq: [
       {
         question: "Do you integrate payments for deposits?",
         answer:
-          "Yes—deposits and refunds can be integrated with provider webhooks and explicit reconciliation tooling for support teams.",
+          "Yes, deposits and refunds can be integrated with provider webhooks and explicit reconciliation tooling for support teams.",
       },
     ],
     publishedAt: "2026-02-14T10:00:00.000Z",
@@ -101,7 +101,7 @@ export const caseStudies: CaseStudy[] = [
       {
         question: "How do you prevent duplicate listings?",
         answer:
-          "Normalization rules, dedupe workflows in admin tools, and canonical strategies for near-duplicate pages—implemented to match your operational reality.",
+          "Normalization rules, dedupe workflows in admin tools, and canonical strategies for near-duplicate pages, implemented to match your operational reality.",
       },
     ],
     publishedAt: "2026-03-05T10:00:00.000Z",

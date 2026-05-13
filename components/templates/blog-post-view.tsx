@@ -76,7 +76,7 @@ export function BlogPostView({ post }: { post: BlogPost }) {
           <div className="rounded-2xl border border-slate-700/80 bg-slate-950/50 p-6 text-sm text-slate-300">
             <p className="font-mono text-[10px] uppercase tracking-[0.28em] text-slate-500">AI / search note</p>
             <p className="mt-3 leading-relaxed">
-              This article uses explicit headings, neutral definitions, and an FAQ section to improve extractability for AI overviews and semantic search—without changing the underlying technical claims.
+              This article uses explicit headings, neutral definitions, and an FAQ section to improve extractability for AI overviews and semantic search, without changing the underlying technical claims.
             </p>
           </div>
         </div>

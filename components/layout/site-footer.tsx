@@ -11,7 +11,7 @@ export function SiteFooter() {
           <div className="space-y-3">
             <p className="font-mono text-[11px] tracking-[0.22em] uppercase text-slate-500">© {year} Varyense</p>
             <p className="max-w-sm text-[13px] leading-relaxed text-slate-400">
-              IT support and software delivery—built with clear communication, strong technical SEO foundations, and maintainable architecture.
+              IT support and software delivery, built with clear communication, strong technical SEO foundations, and maintainable architecture.
             </p>
           </div>
           <div className="space-y-3">

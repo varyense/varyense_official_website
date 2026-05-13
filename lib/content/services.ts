@@ -37,7 +37,7 @@ export const servicePages: Record<string, ServicePageContent> = {
     heroEyebrow: "Services",
     heroTitle: "SaaS products engineered for reliability and growth.",
     heroSubtitle:
-      "We help teams ship subscription software faster—without sacrificing security, observability, or maintainability.",
+      "We help teams ship subscription software faster, without sacrificing security, observability, or maintainability.",
     overview:
       "SaaS development at Varyense focuses on outcomes: onboarding that converts, permissions that scale, and infrastructure patterns that keep costs predictable. We align engineering decisions with your roadmap so you can iterate safely in production.",
     benefits: [
@@ -47,7 +47,7 @@ export const servicePages: Record<string, ServicePageContent> = {
       },
       {
         title: "Operational clarity",
-        body: "Logging, metrics, and deployment workflows are treated as product requirements—not afterthoughts.",
+        body: "Logging, metrics, and deployment workflows are treated as product requirements, not afterthoughts.",
       },
       {
         title: "Product-minded engineering",
@@ -114,7 +114,7 @@ export const servicePages: Record<string, ServicePageContent> = {
       },
       {
         title: "Technical SEO baked in",
-        body: "Metadata, structured data, sitemaps, and internal linking patterns are part of the implementation—not a late add-on.",
+        body: "Metadata, structured data, sitemaps, and internal linking patterns are part of the implementation, not a late add-on.",
       },
       {
         title: "Accessible UI",
@@ -137,7 +137,7 @@ export const servicePages: Record<string, ServicePageContent> = {
       {
         question: "Can you migrate from WordPress or a legacy stack?",
         answer:
-          "We plan migrations in phases—content modeling, redirects, and SEO parity—to reduce risk and avoid traffic cliffs.",
+          "We plan migrations in phases, content modeling, redirects, and SEO parity, to reduce risk and avoid traffic cliffs.",
       },
     ],
     relatedIndustrySlugs: ["ecommerce-solutions", "healthcare-software"],
@@ -221,11 +221,11 @@ export const servicePages: Record<string, ServicePageContent> = {
       { name: "UI/UX Design", href: "/services/ui-ux-design" },
     ],
     heroEyebrow: "Services",
-    heroTitle: "Design systems that make products easier to ship—and easier to use.",
+    heroTitle: "Design systems that make products easier to ship, and easier to use.",
     heroSubtitle:
       "We connect user goals to interface patterns, reducing ambiguity for engineering and improving clarity for customers.",
     overview:
-      "Good UX is measurable: fewer support tickets, higher task completion, and clearer comprehension. We produce practical artifacts—flows, wireframes, UI kits, and content guidance—that integrate with development.",
+      "Good UX is measurable: fewer support tickets, higher task completion, and clearer comprehension. We produce practical artifacts, flows, wireframes, UI kits, and content guidance, that integrate with development.",
     benefits: [
       {
         title: "Consistent patterns",
@@ -251,7 +251,7 @@ export const servicePages: Record<string, ServicePageContent> = {
       {
         question: "Do you write UX copy?",
         answer:
-          "Yes—microcopy, empty states, and onboarding messaging are part of a complete UX engagement when needed.",
+          "Yes, microcopy, empty states, and onboarding messaging are part of a complete UX engagement when needed.",
       },
     ],
     relatedIndustrySlugs: ["ecommerce-solutions"],
@@ -271,7 +271,7 @@ export const servicePages: Record<string, ServicePageContent> = {
     path: "/services/ai-development",
     title: "AI Development",
     summary:
-      "Practical AI features: assistants, retrieval workflows, evaluation, and guardrails integrated into your product—not demos.",
+      "Practical AI features: assistants, retrieval workflows, evaluation, and guardrails integrated into your product, not demos.",
     breadcrumbs: [
       { name: "Home", href: "/" },
       { name: "Services", href: "/services" },
@@ -280,7 +280,7 @@ export const servicePages: Record<string, ServicePageContent> = {
     heroEyebrow: "Services",
     heroTitle: "AI features grounded in your data, policies, and customer trust.",
     heroSubtitle:
-      "We implement retrieval-augmented workflows, monitoring, and safety patterns suitable for production—not one-off prototypes.",
+      "We implement retrieval-augmented workflows, monitoring, and safety patterns suitable for production, not one-off prototypes.",
     overview:
       "Successful AI products require evaluation datasets, observability, and clear escalation paths when models fail. We focus on measurable quality: latency, grounded answers, and auditability.",
     benefits: [
@@ -308,7 +308,7 @@ export const servicePages: Record<string, ServicePageContent> = {
       {
         question: "Can AI features comply with privacy requirements?",
         answer:
-          "We implement data minimization, retention policies, and access boundaries aligned to your requirements—treating AI as part of your overall security model.",
+          "We implement data minimization, retention policies, and access boundaries aligned to your requirements, treating AI as part of your overall security model.",
       },
     ],
     relatedIndustrySlugs: ["healthcare-software", "fintech-software"],

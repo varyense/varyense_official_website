@@ -41,7 +41,7 @@ export function ToolsSearchGrid({ tools, categories, featured }: ToolsSearchGrid
             Popular starting points
           </h2>
           <p className="max-w-2xl text-sm leading-relaxed text-slate-400">
-            These calculators cover common finance, energy, AI budgeting, and everyday math workflows—each opens on a dedicated subdomain in a new tab.
+            These calculators cover common finance, energy, AI budgeting, and everyday math workflows, each opens on a dedicated subdomain in a new tab.
           </p>
         </div>
         <ul className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
@@ -163,7 +163,7 @@ export function ToolsSearchGrid({ tools, categories, featured }: ToolsSearchGrid
         </ul>
 
         {filtered.length === 0 ? (
-          <p className="text-sm text-slate-400">No calculators match that search—try a shorter keyword or reset the category filter.</p>
+          <p className="text-sm text-slate-400">No calculators match that search, try a shorter keyword or reset the category filter.</p>
         ) : null}
       </section>
     </div>

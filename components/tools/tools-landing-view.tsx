@@ -32,7 +32,7 @@ export function ToolsLandingView() {
       <ToolsIndexSchema />
       <WebPageSchema
         name="Calculators & tools"
-        description="Free calculators hosted by Varyense—energy, finance, health, construction, AI token costs, and more—each with SEO hub pages on varyense.com."
+        description="Free calculators hosted by Varyense, energy, finance, health, construction, AI token costs, and more, each with SEO hub pages on varyense.com."
         path="/tools"
       />
       <FaqSchema faqs={toolsIndexFaqs} />
@@ -54,7 +54,7 @@ export function ToolsLandingView() {
 
       <CtaSection
         title="Ship calculators your customers trust"
-        body="Whether you need a public SEO library, authenticated estimators, or embeddable widgets, we can help—from UX to deployment and analytics."
+        body="Whether you need a public SEO library, authenticated estimators, or embeddable widgets, we can help, from UX to deployment and analytics."
         href="/contact"
         label="Discuss a project"
       />

@@ -36,7 +36,7 @@ export function ServicePageView({ content }: { content: ServicePageContent }) {
         title={<span className="bg-gradient-to-r from-slate-100 via-slate-300 to-slate-400 bg-clip-text text-transparent">{content.heroTitle}</span>}
         subtitle={content.heroSubtitle}
         primaryCta={{ href: "/contact", label: "Discuss this service" }}
-        secondaryNote="Looking for a different stack or timeline? Tell us your constraints—we’ll propose a phased plan."
+        secondaryNote="Looking for a different stack or timeline? Tell us your constraints, we’ll propose a phased plan."
       />
 
       <section className="space-y-4 pt-4">

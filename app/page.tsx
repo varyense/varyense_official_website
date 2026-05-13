@@ -34,7 +34,7 @@ const pillars = [
   },
   {
     title: "Products & SaaS",
-    body: "We design and build software and web-based tools—from internal tools to customer-facing apps—so your business gets exactly what it needs.",
+    body: "We design and build software and web-based tools from internal tools to customer-facing apps, so your business gets exactly what it needs.",
   },
   {
     title: "Clear and reliable",
@@ -86,7 +86,7 @@ export default function Home() {
             that keep your business moving.
           </h1>
           <p className="max-w-xl text-base leading-relaxed text-slate-400 sm:text-lg">
-            We help you run smoothly—keeping your systems up, fixing issues when
+            We help you run smoothly, keeping your systems up, fixing issues when
             they happen, and building software and online tools so your team can
             do more. We plan to expand into more sectors as we grow.
           </p>
@@ -157,7 +157,7 @@ export default function Home() {
                   </p>
                   <p className="text-[14px] leading-relaxed text-slate-200">
                     Small teams and growing businesses. Tell us your goals and
-                    we’ll propose a clear plan—what we’ll do, how long it takes,
+                    we’ll propose a clear plan, what we’ll do, how long it takes,
                     and what it costs.
                   </p>
                 </div>
@@ -180,7 +180,7 @@ export default function Home() {
           </div>
           <p className="max-w-md text-sm leading-relaxed text-slate-400 sm:text-base">
             We focus on support and product or SaaS work today. As we grow,
-            we’ll add more services and sectors—this site will stay updated.
+            we’ll add more services and sectors, this site will stay updated.
           </p>
         </FadeIn>
 
@@ -209,7 +209,7 @@ export default function Home() {
             Our work
           </p>
           <h2 className="font-varyense text-xl text-slate-50 sm:text-2xl leading-tight max-w-2xl">
-            Projects we’ve built—helping students, businesses, and creators.
+            Projects we’ve built, helping students, businesses, and creators.
           </h2>
           <p className="max-w-xl text-sm leading-relaxed text-slate-400 sm:text-base">
             From exam portals to turf management and local discovery, we build

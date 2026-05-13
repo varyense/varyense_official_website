@@ -62,8 +62,8 @@ export default function TermsPage() {
 
         <h2>3. Intellectual property</h2>
         <p>
-          Unless otherwise noted, all content on this website — including design,
-          layout, text, visuals, animations, and code — is owned or licensed by
+          Unless otherwise noted, all content on this website, including design,
+          layout, text, visuals, animations, and code, is owned or licensed by
           Varyense and protected by applicable intellectual property laws. You may
           browse, reference, and share links to our work, but you may not copy,
           reproduce, or redistribute it for commercial purposes without our

@@ -13,7 +13,7 @@ const crumbs = [
 ] as const;
 
 const description =
-  "Articles on Next.js SaaS architecture, technical SEO, performance, and pragmatic AI product patterns—written for builders and buyers.";
+  "Articles on Next.js SaaS architecture, technical SEO, performance, and pragmatic AI product patterns, written for builders and buyers.";
 
 export const metadata: Metadata = createPageMetadata({
   title: "Blog",
