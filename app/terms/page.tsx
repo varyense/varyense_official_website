@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo/metadata";
 
-export const metadata: Metadata = {
-  title: "Terms & Conditions — Varyense",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: "Terms & Conditions",
+  description:
+    "Read the Varyense Terms & Conditions: basic rules for using our website and exploring our work as the company evolves.",
+  path: "/terms",
+});
 
 export default function TermsPage() {
   return (

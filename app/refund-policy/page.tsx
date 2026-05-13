@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo/metadata";
 
-export const metadata: Metadata = {
-  title: "Refund Policy — Varyense",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: "Refund Policy",
+  description:
+    "Understand how Varyense handles refunds and adjustments for IT support and tailored SaaS or product engagements.",
+  path: "/refund-policy",
+});
 
 export default function RefundPolicyPage() {
   return (

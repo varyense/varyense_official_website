@@ -1,7 +1,16 @@
+import type { Metadata } from "next";
 import Link from "next/link";
 import { Button } from "@/components/ui/button";
 import { Card } from "@/components/ui/card";
 import { FadeIn } from "@/components/motion/fade-in";
+import { createPageMetadata } from "@/lib/seo/metadata";
+import { siteConfig } from "@/lib/site-config";
+
+export const metadata: Metadata = createPageMetadata({
+  title: "IT Support & SaaS Solutions",
+  description: siteConfig.description,
+  path: "/",
+});
 
 const highlights = [
   {
@@ -66,7 +75,7 @@ export default function Home() {
       {/* Hero */}
       <section className="grid gap-14 lg:grid-cols-[minmax(0,1.35fr)_minmax(0,1fr)] lg:items-center lg:gap-16">
         <FadeIn className="space-y-10" y={20}>
-          <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-slate-400">
+          <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">
             What we do
           </p>
           <h1 className="font-varyense text-3xl leading-tight text-slate-50 sm:text-[2.5rem] sm:leading-[1.12] lg:text-[2.9rem]">
@@ -162,7 +171,7 @@ export default function Home() {
       <section className="space-y-12 pt-4">
         <FadeIn className="flex flex-col gap-6 sm:flex-row sm:items-end sm:justify-between" y={18}>
           <div className="space-y-3">
-            <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-slate-400">
+            <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">
               What we offer
             </p>
             <h2 className="font-varyense text-xl text-slate-50 sm:text-2xl leading-tight">
@@ -196,7 +205,7 @@ export default function Home() {
       {/* Projects */}
       <section id="projects" className="scroll-mt-24 space-y-12 pt-8">
         <FadeIn className="space-y-4" y={18}>
-          <p className="font-mono text-[11px] uppercase tracking-[0.32em] text-slate-400">
+          <p className="font-mono text-[13px] uppercase tracking-[0.2em] text-slate-300 mb-6">
             Our work
           </p>
           <h2 className="font-varyense text-xl text-slate-50 sm:text-2xl leading-tight max-w-2xl">

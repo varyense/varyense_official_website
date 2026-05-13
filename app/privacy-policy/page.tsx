@@ -1,8 +1,12 @@
 import type { Metadata } from "next";
+import { createPageMetadata } from "@/lib/seo/metadata";
 
-export const metadata: Metadata = {
-  title: "Privacy Policy — Varyense",
-};
+export const metadata: Metadata = createPageMetadata({
+  title: "Privacy Policy",
+  description:
+    "Read the Varyense Privacy Policy: what we collect on this website, how we use it, and the choices available to you.",
+  path: "/privacy-policy",
+});
 
 export default function PrivacyPolicyPage() {
   return (

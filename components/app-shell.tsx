@@ -52,7 +52,7 @@ export function AppShell({ children }: AppShellProps) {
       <div className="relative z-10 flex min-h-screen flex-col">
         <SiteHeader />
         <main className="flex-1">
-          <div className="mx-auto max-w-screen-2xl px-6 py-16 sm:py-20 lg:py-24">
+          <div className="mx-auto max-w-screen-2xl px-6 py-6">
             {children}
           </div>
         </main>
