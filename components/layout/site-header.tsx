@@ -1,12 +1,5 @@
 import Link from "next/link";
-
-const links = [
-  { href: "/", label: "Home" },
-  { href: "/#projects", label: "Projects" },
-  { href: "/terms", label: "Terms" },
-  { href: "/privacy-policy", label: "Privacy" },
-  { href: "/refund-policy", label: "Refunds" },
-];
+import { SiteHeaderActions } from "@/components/layout/site-header-actions";
 
 export function SiteHeader() {
   return (
@@ -19,20 +12,9 @@ export function SiteHeader() {
             </span>
           </Link>
 
-          <nav className="hidden items-center gap-1.5 text-[11px] font-medium text-slate-300 sm:flex">
-            {links.map((link) => (
-              <Link
-                key={link.href}
-                href={link.href}
-                className="relative rounded-full px-3 py-1.5 text-[10px] uppercase tracking-[0.24em] text-slate-400 transition-colors hover:bg-slate-900/80 hover:text-slate-50"
-              >
-                <span>{link.label}</span>
-              </Link>
-            ))}
-          </nav>
+          <SiteHeaderActions />
         </div>
       </div>
     </header>
   );
 }
-
